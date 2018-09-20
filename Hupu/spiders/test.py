@@ -2,8 +2,9 @@ import requests
 import logging
 url = "https://bbs.hupu.com/bxj/highlights"
 html = requests.get(url)
-logging.basicConfig(
-        fileName = 'app.log',
-        level = logging.ERROR
-        )
-logging.info(html.content)
+logging.basicConfig(filename='app.log',
+                    level=logging.DEBUG,
+                    format='%(asctime)s %(filename)s[line:%(lineno)d] %(message)s',
+                    datefmt='%Y-%m-%d')
+logging.debug(html.content)
+print(html.text)
