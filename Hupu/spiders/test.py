@@ -1,6 +1,5 @@
 import requests
 import logging
-import
 url = "https://bbs.hupu.com/bxj/highlights"
 html = requests.get(url)
 logging.basicConfig(filename='app.log',
