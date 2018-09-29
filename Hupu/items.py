@@ -11,4 +11,9 @@ import scrapy
 class HupuItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    # text_list = scrapy.Field()
     pass
+
+
+class TextItem(scrapy.Item):
+    text = scrapy.Field()
