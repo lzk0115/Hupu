@@ -1,0 +1,5 @@
+2018-10-02 __init__.py[line:111] Building prefix dict from the default dictionary ...
+2018-10-02 __init__.py[line:131] Loading model from cache /tmp/jieba.cache
+2018-10-02 __init__.py[line:163] Loading model cost 1.085 seconds.
+2018-10-02 __init__.py[line:164] Prefix dict has been built succesfully.
+2018-10-02 test.py[line:15] 他 / 到底 / 经历 / 了 / 啥 / ！ / 感觉 / 说话 / 的 / 时候 / 都 / 要 / 哭 / 了 / 一样

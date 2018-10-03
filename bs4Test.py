@@ -1,5 +1,7 @@
 import re,logging
 from scrapy.selector import Selector
+
+
 with open('hupu_page/hupu-1.html', encoding='utf-8')  as fin:
     a = fin.read()
 
